@@ -119,60 +119,58 @@ function App() {
                             transition={{ type: "spring", damping: 25, stiffness: 300 }}
                             className="fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-3xl shadow-2xl border-t border-slate-100 max-h-[85vh] overflow-y-auto"
                         >
-                            <div className="max-w-2xl mx-auto p-6 space-y-6 pb-10">
-                                <div className="flex items-center justify-between mb-2">
-                                    <h2 className="text-xl font-bold text-slate-900">Filtrar y Buscar</h2>
-                                    <button onClick={() => setIsSearchOpen(false)} className="p-2 bg-slate-100 rounded-full text-slate-500 hover:bg-slate-200">
-                                        <X size={20} />
+                            <div className="max-w-2xl mx-auto p-4 space-y-4 pb-8">
+                                <div className="flex items-center justify-between">
+                                    <h2 className="text-lg font-bold text-slate-900">Buscar</h2>
+                                    <button onClick={() => setIsSearchOpen(false)} className="p-1.5 bg-slate-100 rounded-full text-slate-500 hover:bg-slate-200">
+                                        <X size={18} />
                                     </button>
                                 </div>
 
                                 <div className="relative">
-                                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
+                                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                                     <input
                                         autoFocus
                                         type="text"
                                         placeholder="Nombre, ID, o teléfono..."
                                         value={search}
                                         onChange={(e) => setSearch(e.target.value)}
-                                        className="w-full pl-11 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-lg"
+                                        className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-base"
                                     />
                                 </div>
 
-                                <div className="grid grid-cols-2 gap-4">
-                                    <div className="space-y-2">
-                                        <label className="text-sm font-semibold text-slate-700 ml-1">Estado</label>
-                                        <div className="flex flex-col bg-slate-50 p-1.5 rounded-xl border border-slate-200 gap-1">
-                                            {['all', 'active', 'inactive'].map((f) => (
+                                <div className="space-y-3">
+                                    <div>
+                                        <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 block">Estado</label>
+                                        <div className="flex flex-wrap gap-2">
+                                            {['all', 'active', 'inactive', 'issues'].map((f) => (
                                                 <button
                                                     key={f}
                                                     onClick={() => setStatusFilter(f)}
-                                                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-all text-left flex items-center justify-between ${statusFilter === f
-                                                        ? 'bg-white text-blue-700 shadow-sm border border-blue-100'
-                                                        : 'text-slate-500 hover:bg-white/50'
+                                                    className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${statusFilter === f
+                                                        ? 'bg-blue-600 text-white border-blue-600 shadow-md shadow-blue-200'
+                                                        : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
                                                         }`}
                                                 >
-                                                    <span>{f === 'all' ? 'Todos' : f === 'active' ? 'Activos' : 'Inactivos'}</span>
-                                                    {statusFilter === f && <div className="w-2 h-2 rounded-full bg-blue-500"></div>}
+                                                    {f === 'all' ? 'Todos' : f === 'active' ? 'Activos' : f === 'inactive' ? 'Inactivos' : 'Novedades'}
                                                 </button>
                                             ))}
                                         </div>
                                     </div>
 
-                                    <div className="space-y-2">
-                                        <label className="text-sm font-semibold text-slate-700 ml-1">Género</label>
-                                        <div className="flex flex-col bg-slate-50 p-1.5 rounded-xl border border-slate-200 gap-1">
+                                    <div>
+                                        <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 block">Género</label>
+                                        <div className="flex flex-wrap gap-2">
                                             {[{ v: 'all', l: 'Todos' }, { v: 'male', l: 'Hombres' }, { v: 'female', l: 'Mujeres' }].map((g) => (
                                                 <button
                                                     key={g.v}
                                                     onClick={() => setGenderFilter(g.v)}
-                                                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-all text-left flex items-center justify-between ${genderFilter === g.v
-                                                        ? 'bg-white text-blue-700 shadow-sm border border-blue-100'
-                                                        : 'text-slate-500 hover:bg-white/50'
+                                                    className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${genderFilter === g.v
+                                                        ? 'bg-blue-600 text-white border-blue-600 shadow-md shadow-blue-200'
+                                                        : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
                                                         }`}
                                                 >
-                                                    <span>{g.l}</span>
-                                                    {genderFilter === g.v && <div className="w-2 h-2 rounded-full bg-blue-500"></div>}
+                                                    {g.l}
                                                 </button>
                                             ))}
                                         </div>
@@ -182,7 +180,7 @@ function App() {
                                 <div className="pt-2">
                                     <button
                                         onClick={() => setIsSearchOpen(false)}
-                                        className="w-full py-3.5 bg-blue-600 text-white font-bold rounded-xl shadow-lg shadow-blue-600/20 active:scale-[0.98] transition-all"
+                                        className="w-full py-3 bg-slate-900 text-white font-bold rounded-xl shadow-lg shadow-slate-200 active:scale-[0.98] transition-all text-sm"
                                     >
                                         Ver {filteredStudents.length} Resultados
                                     </button>
