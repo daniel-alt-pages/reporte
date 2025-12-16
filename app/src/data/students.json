@@ -1,0 +1,557 @@
+[
+  {
+    "id": "1066606386",
+    "email": "Jhonirvana@seamosgenios.com",
+    "recovery_code": "R5H2FKX6",
+    "status": "active",
+    "platform_name": "Jhoan Salcedo Bedoya",
+    "name": "Johan Andrés Salcedo Bedoya",
+    "gender": "male",
+    "birthdate": "10/10/2010",
+    "phone": "3204750293",
+    "analysis": {
+      "status": "duplicate",
+      "message": "DUPLICADO: Este ID (1066606386) aparece 2 veces."
+    }
+  },
+  {
+    "id": "1066606386",
+    "email": "johansalcedobedoya95@seamosgenios.com",
+    "recovery_code": "N2REF12T",
+    "status": "active",
+    "platform_name": "Johan Andres Salcedo Bedoya",
+    "name": "Johan Andrés Salcedo Bedoya",
+    "gender": "male",
+    "birthdate": "10/10/2010",
+    "phone": "3204750293",
+    "analysis": {
+      "status": "duplicate",
+      "message": "DUPLICADO: Este ID (1066606386) aparece 2 veces."
+    }
+  },
+  {
+    "id": "SIN_REGISTRO",
+    "name": "Davier Esteban Otero Urango",
+    "email": "",
+    "phone": "3148945915",
+    "gender": "male",
+    "birthdate": "06/07/2007",
+    "status": "inactive",
+    "analysis": {
+      "status": "missing",
+      "message": "CRÍTICO: Estudiante oficial NO encontrado en plataforma."
+    }
+  },
+  {
+    "id": "SIN_REGISTRO",
+    "name": "Dayana Michel Peña Tordecilla",
+    "email": "",
+    "phone": "3218976781",
+    "gender": "female",
+    "birthdate": "06/05/2010",
+    "status": "inactive",
+    "analysis": {
+      "status": "missing",
+      "message": "CRÍTICO: Estudiante oficial NO encontrado en plataforma."
+    }
+  },
+  {
+    "id": "1133790795",
+    "email": "Eliseofuentesdiaz@seamosgenios.com",
+    "recovery_code": "PNEVISTT",
+    "status": "active",
+    "platform_name": "Eliseo Eli Fuentes Díaz",
+    "name": "Eliceo Eli Fuentes Díaz",
+    "gender": "male",
+    "birthdate": "19/08/2009",
+    "phone": "3217064315",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Eliseo Eli Fuentes Díaz' tiene errores. Corrección: 'ELICEO ELI FUENTES DÍAZ'"
+    }
+  },
+  {
+    "id": "1063292674",
+    "email": "liizvaleria@seamosgenios.com",
+    "recovery_code": "KJCWSKH6",
+    "status": "active",
+    "platform_name": "Liiz Valeria Gil Hoyos",
+    "name": "Liz Valeria Gil Hoyos",
+    "gender": "female",
+    "birthdate": "18/10/2009",
+    "phone": "3234030521",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Liiz Valeria Gil Hoyos' tiene errores. Corrección: 'LIZ VALERIA GIL HOYOS'"
+    }
+  },
+  {
+    "id": "1067898547",
+    "email": "Alexandra@seamosgenios.com",
+    "recovery_code": "MMHQOFP4",
+    "status": "active",
+    "platform_name": "Alexandra Urzola",
+    "name": "Alexandra Urzola Martínez",
+    "gender": "female",
+    "birthdate": "23/03/2009",
+    "phone": "3235640423",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Alexandra Urzola' tiene errores. Corrección: 'ALEXANDRA URZOLA MARTÍNEZ'"
+    }
+  },
+  {
+    "id": "1070815365",
+    "email": "Mariamorelo@seamosgenios.com",
+    "recovery_code": "18YLEL2F",
+    "status": "active",
+    "platform_name": "Maria Angelica Morelo Villero",
+    "name": "María Angélica Morelo Villeros",
+    "gender": "female",
+    "birthdate": "13/08/2007",
+    "phone": "3234365594",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Maria Angelica Morelo Villero' tiene errores. Corrección: 'MARÍA ANGÉLICA MORELO VILLEROS'"
+    }
+  },
+  {
+    "id": "1066606169",
+    "email": "Luismario@seamosgenios.com",
+    "recovery_code": "JXM4FBA1",
+    "status": "active",
+    "platform_name": "Luis Mari Zabala Sanches",
+    "name": "Luis Mario Zabala Sánchez",
+    "gender": "male",
+    "birthdate": "10/04/2010",
+    "phone": "3114262393",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Luis Mari Zabala Sanches' tiene errores. Corrección: 'LUIS MARIO ZABALA SÁNCHEZ'"
+    }
+  },
+  {
+    "id": "1133790838",
+    "email": "luis@seamosgenios.com",
+    "recovery_code": "2M65E7X5",
+    "status": "active",
+    "platform_name": "Luis Daniel",
+    "name": "Luis Daniel Mendoza Uribe",
+    "gender": "male",
+    "birthdate": "11/02/2009",
+    "phone": "3105074210",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Luis Daniel' tiene errores. Corrección: 'LUIS DANIEL MENDOZA URIBE'"
+    }
+  },
+  {
+    "id": "1063290755",
+    "email": "Jairo@seamosgenios.com",
+    "recovery_code": "XTZZETIR",
+    "status": "active",
+    "platform_name": "Jairo Manuel Baltazar Villeros",
+    "name": "Jairo Manuel Baltazar Villero",
+    "gender": "male",
+    "birthdate": "11/10/2009",
+    "phone": "3146676105",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Jairo Manuel Baltazar Villeros' tiene errores. Corrección: 'JAIRO MANUEL BALTAZAR VILLERO'"
+    }
+  },
+  {
+    "id": "1066605793",
+    "email": "Camiloarroyo@seamosgenios.com",
+    "recovery_code": "CQ0RGA8A",
+    "status": "active",
+    "platform_name": "Camiloandresarroyocastro",
+    "name": "Camilo Andrés Arroyo Castro",
+    "gender": "male",
+    "birthdate": "05/04/2010",
+    "phone": "3235647879",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Camiloandresarroyocastro' tiene errores. Corrección: 'CAMILO ANDRÉS ARROYO CASTRO'"
+    }
+  },
+  {
+    "id": "1148695567",
+    "email": "KAREN123@seamosgenios.com",
+    "recovery_code": "KUAMQFX5",
+    "status": "active",
+    "platform_name": "Karenarrietavergara",
+    "name": "Karen Sofía Arrieta Vergara",
+    "gender": "female",
+    "birthdate": "07/09/2010",
+    "phone": "3104004760",
+    "analysis": {
+      "status": "warning",
+      "message": "Nombre en plataforma 'Karenarrietavergara' tiene errores. Corrección: 'KAREN SOFÍA ARRIETA VERGARA'"
+    }
+  },
+  {
+    "id": "1063292595",
+    "email": "karendayana@seamosgenios.com",
+    "recovery_code": "EFZXAEMI",
+    "status": "active",
+    "platform_name": "Karen Dayana Castillo Perez",
+    "name": "Karen Dayana Castillo Pérez",
+    "gender": "female",
+    "birthdate": "17/04/2010",
+    "phone": "3148177142",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1063363727",
+    "email": "Ronaldozuleta@seamosgenios.com",
+    "recovery_code": "VQPEEQB3",
+    "status": "active",
+    "platform_name": "Ronaldo Andres Zuleta Guerra",
+    "name": "Ronaldo Andrés Zuleta Guerra",
+    "gender": "male",
+    "birthdate": "07/04/2010",
+    "phone": "3127038167",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1148438017",
+    "email": "marianacabadia@seamosgenios.com",
+    "recovery_code": "6SOL90I9",
+    "status": "active",
+    "platform_name": "Mariana De Jesus Cabadia Parra",
+    "name": "Mariana De Jesús Cabadia Parra",
+    "gender": "female",
+    "birthdate": "06/02/2008",
+    "phone": "3148441560",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1133790727",
+    "email": "YULISA@seamosgenios.com",
+    "recovery_code": "5T84YT10",
+    "status": "active",
+    "platform_name": "Yulisa Rodríguez Rodríguez",
+    "name": "Yulisa Rodríguez Rodríguez",
+    "gender": "female",
+    "birthdate": "10/09/2009",
+    "phone": "3237650952",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1148437900",
+    "email": "Luisa@seamosgenios.com",
+    "recovery_code": "YU90UGDB",
+    "status": "active",
+    "platform_name": "Luisa Fernanda Baron Lucas",
+    "name": "Luisa Fernanda Barón Lucas",
+    "gender": "female",
+    "birthdate": "15/12/2008",
+    "phone": "3114062955",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1133790340",
+    "email": "Yuleimis123@seamosgenios.com",
+    "recovery_code": "QGKY8LG9",
+    "status": "active",
+    "platform_name": "Yuleimis Murillo Gomez",
+    "name": "Yuleimis Murillo Gómez",
+    "gender": "female",
+    "birthdate": "12/10/2004",
+    "phone": "3218863178",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1148438554",
+    "email": "NicolCerpa@seamosgenios.com",
+    "recovery_code": "FKDFBIPO",
+    "status": "active",
+    "platform_name": "Nicol Tatiana Cerpa Peinado",
+    "name": "Nicol Tatiana Cerpa Peinado",
+    "gender": "female",
+    "birthdate": "17/12/2008",
+    "phone": "3012478928",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1.148.695.420",
+    "email": "Jorge@seamosgenios.com",
+    "recovery_code": "TT14IY2A",
+    "status": "active",
+    "platform_name": "Jorge Andres Perez Mestra",
+    "name": "Jorge Andrés Pérez Mestra",
+    "gender": "male",
+    "birthdate": "14/03/2010",
+    "phone": "3146640429",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1.066.572.003",
+    "email": "Juan@seamosgenios.com",
+    "recovery_code": "5WM2HKLF",
+    "status": "active",
+    "platform_name": "Juan David Correa Hernández",
+    "name": "Juan David Correa Hernández",
+    "gender": "male",
+    "birthdate": "30/09/2007",
+    "phone": "3217229477",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1063290456",
+    "email": "Sibajaarnedis@seamosgenios.com",
+    "recovery_code": "WT8WPQ8R",
+    "status": "active",
+    "platform_name": "Arnedis Sibaja Begambre",
+    "name": "Arnedis Sibaja Begambre",
+    "gender": "female",
+    "birthdate": "14/10/2009",
+    "phone": "3107241623",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1033373778",
+    "email": "Anab@seamosgenios.com",
+    "recovery_code": "2ZIWS7T5",
+    "status": "active",
+    "platform_name": "Ana Belén Baron Ceballos",
+    "name": "Ana Belén Barón Ceballos",
+    "gender": "female",
+    "birthdate": "01/03/2010",
+    "phone": "3133984933",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1066605887",
+    "email": "Daniezm@seamosgenios.com",
+    "recovery_code": "09T16RBZ",
+    "status": "active",
+    "platform_name": "Daniel Andres Zabala Montiel",
+    "name": "Daniel Andrés Zabala Montiel",
+    "gender": "male",
+    "birthdate": "04/03/2010",
+    "phone": "3128989638",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1066605450",
+    "email": "MaryAcosta@seamosgenios.com",
+    "recovery_code": "XDX86NV8",
+    "status": "active",
+    "platform_name": "Maria Esther Acosta Feria",
+    "name": "María Esther Acosta Feria",
+    "gender": "female",
+    "birthdate": "24/10/2009",
+    "phone": "3105118499",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1066573694",
+    "email": "VivianaRZ@seamosgenios.com",
+    "recovery_code": "N6SMPYSF",
+    "status": "active",
+    "platform_name": "Viviana Marcela Romero Zuñiga",
+    "name": "Viviana Marcela Romero Zúñiga",
+    "gender": "female",
+    "birthdate": "16/01/2010",
+    "phone": "3108218930",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1063295162",
+    "email": "Dainer@seamosgenios.com",
+    "recovery_code": "DDETH3JR",
+    "status": "active",
+    "platform_name": "Dainer Andres Sánchez Castro",
+    "name": "Dainer Andrés Sánchez Castro",
+    "gender": "male",
+    "birthdate": "19/06/2009",
+    "phone": "3145180611",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1066605",
+    "email": "zabalamontieldaniel@seamosgenios.com",
+    "recovery_code": "U9J29K7M",
+    "status": "active",
+    "platform_name": "Daniel Andres Zabala Montiel",
+    "name": "Daniel Andrés Zabala Montiel",
+    "gender": "male",
+    "birthdate": "04/03/2010",
+    "phone": "3128989638",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1063789927",
+    "email": "jhoanssebastiandurangozabala@seamosgenios.com",
+    "recovery_code": "LOX0A9YK",
+    "status": "active",
+    "platform_name": "Jhoans Sebastian Durango Zabala",
+    "name": "Jhoans Sebastián Durango Zabala",
+    "gender": "male",
+    "birthdate": "20/10/2009",
+    "phone": "3137974214",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1148695425",
+    "email": "alexandrajulioromero@seamosgenios.com",
+    "recovery_code": "3X29LWLI",
+    "status": "active",
+    "platform_name": "Alexandra Julio Romero",
+    "name": "Alexandra Julio Romero",
+    "gender": "female",
+    "birthdate": "10/02/2010",
+    "phone": "3216335419",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1148438187",
+    "email": "Jarolvergara@seamosgenios.com",
+    "recovery_code": "0W0O03KK",
+    "status": "active",
+    "platform_name": "Harold Ivan Hoyos Vergara",
+    "name": "Harold Iván Hoyos Vergara",
+    "gender": "male",
+    "birthdate": "19/03/2008",
+    "phone": "3122860764",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1063293969",
+    "email": "Eliana@seamosgenios.com",
+    "recovery_code": "GC9BNG7C",
+    "status": "active",
+    "platform_name": "Eliana Marcela Vergara Gandia",
+    "name": "Eliana Marcela Vergara Gandia",
+    "gender": "female",
+    "birthdate": "21/06/2008",
+    "phone": "3025714175",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1038117449",
+    "email": "adrianarojas@seamosgenios.com",
+    "recovery_code": "NJQAS90H",
+    "status": "active",
+    "platform_name": "Adriana Lucia Rojas Cordero",
+    "name": "Adriana Lucía Rojas Cordero",
+    "gender": "female",
+    "birthdate": "04/03/2010",
+    "phone": "3148090148",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1066572003",
+    "email": "Juand@seamosgenios.com",
+    "recovery_code": "8Z02ZNM8",
+    "status": "active",
+    "platform_name": "Juan David Correa Hernández",
+    "name": "Juan David Correa Hernández",
+    "gender": "male",
+    "birthdate": "30/09/2007",
+    "phone": "3217229477",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1063296017",
+    "email": "isabella@seamosgenios.com",
+    "recovery_code": "Z8WH833G",
+    "status": "active",
+    "platform_name": "Isabella Manchego Lozano",
+    "name": "Isabella Manchego Lozano",
+    "gender": "female",
+    "birthdate": "08/05/2010",
+    "phone": "3206191655",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1101447212",
+    "email": "Hernan@seamosgenios.com",
+    "recovery_code": "WZMLBA1C",
+    "status": "active",
+    "platform_name": "Hernan Andres Palmera Perez",
+    "name": "Hernán Andrés Palmera Pérez",
+    "gender": "male",
+    "birthdate": "02/06/2007",
+    "phone": "3234839571",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1066605786",
+    "email": "Ximena@seamosgenios.com",
+    "recovery_code": "6HMLS3SG",
+    "status": "active",
+    "platform_name": "Ximena Arias Manco",
+    "name": "Ximena Arias Manco",
+    "gender": "female",
+    "birthdate": "13/11/2009",
+    "phone": "3213841433",
+    "analysis": {
+      "status": "ok"
+    }
+  },
+  {
+    "id": "1148695511",
+    "email": "Janer@seamosgenios.com",
+    "recovery_code": "WDKMNOR8",
+    "status": "active",
+    "platform_name": "Janer Castro Montalvo",
+    "name": "Janer Castro Montalvo",
+    "gender": "male",
+    "birthdate": "03/04/2009",
+    "phone": "3105353181",
+    "analysis": {
+      "status": "ok"
+    }
+  }
+]
