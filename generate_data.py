@@ -72,7 +72,7 @@ for line in madre_db_text.strip().split('\n'):
         })
 
 csv_path = 'c:/Users/Daniel/Downloads/reporte/estudiantes_16-12-2025 (1).csv'
-json_path = 'c:/Users/Daniel/Downloads/reporte/app/src/data/students.json' 
+json_path = 'c:/Users/Daniel/Downloads/reporte/src/data/students.json' 
 os.makedirs(os.path.dirname(json_path), exist_ok=True)
 
 final_list = []
