@@ -42,7 +42,12 @@ function App() {
                 s.id.includes(search) ||
                 s.phone.includes(search);
 
-            const matchesStatus = statusFilter === 'all' || s.status === statusFilter;
+            let matchesStatus = true;
+            if (statusFilter === 'all') matchesStatus = true;
+            else if (statusFilter === 'active') matchesStatus = s.status === 'active';
+            else if (statusFilter === 'inactive') matchesStatus = s.status === 'inactive';
+            else if (statusFilter === 'issues') matchesStatus = s.analysis && s.analysis.status !== 'ok';
+
             const matchesGender = genderFilter === 'all' || s.gender === genderFilter;
 
             return matchesSearch && matchesStatus && matchesGender;
@@ -50,10 +55,11 @@ function App() {
     }, [students, search, statusFilter, genderFilter]);
 
     const stats = useMemo(() => ({
-        total: filteredStudents.length,
-        active: filteredStudents.filter(s => s.status === 'active').length,
-        inactive: filteredStudents.filter(s => s.status === 'inactive').length
-    }), [filteredStudents]);
+        total: students.length, // Total real data, not filtered
+        active: students.filter(s => s.status === 'active').length,
+        inactive: students.filter(s => s.status === 'inactive').length,
+        issues: students.filter(s => s.analysis && s.analysis.status !== 'ok').length
+    }), [students]);
 
     return (
         <div className="min-h-screen bg-slate-50/50 pb-20 font-sans">
@@ -189,7 +195,7 @@ function App() {
 
             <main className="max-w-7xl mx-auto px-4 py-8">
 
-                <Stats stats={stats} />
+                <Stats stats={stats} onFilter={setStatusFilter} currentFilter={statusFilter} />
 
                 {filteredStudents.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
